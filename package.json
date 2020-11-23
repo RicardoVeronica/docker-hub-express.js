@@ -1,0 +1,15 @@
+{
+  "name": "docker-hub-express.js",
+  "version": "1.0.0",
+  "description": "Express.js and mysql in one image",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "ricardoveronica",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
