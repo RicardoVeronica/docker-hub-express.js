@@ -3,7 +3,9 @@ version: '3.7'
 services:
   web:
     build: .
-    command: npm run start
+    container_name: expressjscontainer
+    restart: always
+    command: npm start
     volumes:
       - .:/code
     ports:
@@ -13,6 +15,7 @@ services:
 
   db:
     image: mysql:5.7 
+    container_name: mysqlcontainer
     volumes:
       - ./mysql-data:/var/lib/mysql
     restart: always
