@@ -1,13 +1,18 @@
 # This image will help you to start with JavaScript Express Microframework
 
-### Just pull the image
+### Just clone the repo
 ```
-$ docker pull ricardoveronica/express-app:1.0.0
+$ git clone https://github.com/RicardoVeronica/docker-hub-express.js.git
+```
+
+### Install packages
+```
+$ npm i
 ```
 
 ### Run the image
 ```
-$ docker-compose run --rm ricardoveronica/express-app:1.0.0
+$ docker-compose up -d
 ```
 
 ### Open your browser in
